@@ -77,7 +77,7 @@ Retrieves quiz questions tailored for a specific user, based on their preference
    - Users can call the provided API endpoints to perform various actions on quiz questions.
 
 3. **Testing Example:**
-   - Example requests for testing:
+   - Example requests for testing: (Use Talend API Tester or Postman to test the API endpoints based on the provided examples.)
      - Get All Questions: `GET http://localhost:8080/question/allQuestions`
      - Get Java Questions: `GET http://localhost:8080/question/category/Java`
      - Get Python Questions: `GET http://localhost:8080/question/category/Python`
