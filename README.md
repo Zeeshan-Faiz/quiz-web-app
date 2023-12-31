@@ -89,3 +89,25 @@ Retrieves quiz questions tailored for a specific user, based on their preference
 This Quiz Web Application backend is designed for flexibility and ease of use, providing a robust set of APIs for managing quiz questions. Feel free to explore the GitHub repository for more details.
 
 Feel free to reach out for any questions or suggestions. Happy coding! 🚀
+
+
+```SQL
+/*SQL Query to create database and table to store questions*/
+
+create database quizdb;
+
+use quizdb;
+
+create table question(
+id INT AUTO_INCREMENT PRIMARY KEY,
+question_title VARCHAR(500),
+option1 varchar(150),
+option2 varchar(150),
+option3 varchar(150),
+option4 varchar(150),
+right_answer varchar(150),
+difficulty_level varchar(20));
+
+
+ALTER TABLE quizdb.question
+ADD category varchar(20);
