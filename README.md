@@ -1,6 +1,6 @@
 # Quiz Web Application Documentation
 
-![image.info]()
+![image.info](api-test-snapshot.png)
 
 ## Overview
 
