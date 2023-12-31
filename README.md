@@ -1,5 +1,7 @@
 # Quiz Web Application Documentation
 
+![image.info]()
+
 ## Overview
 
 This Quiz Web Application is a backend-focused project developed using Java, Spring Boot, Spring JPA, and MySQL. The application provides a set of APIs to manage quiz questions, allowing users to interact with the system for functionalities such as retrieving questions, adding new questions, and deleting questions.
